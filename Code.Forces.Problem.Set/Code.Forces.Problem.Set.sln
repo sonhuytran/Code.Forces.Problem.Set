@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1A.Theatre.Square", "P1A.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1B.Spreadsheets", "P1B.Spreadsheets\P1B.Spreadsheets.csproj", "{A8F01471-E5A7-48F0-AE65-4B0E8E3D1683}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1A.Theatre.Square.Console", "P1A.Theatre.Square.Console\P1A.Theatre.Square.Console.csproj", "{A50D9F60-156A-4538-B881-4CB246B046E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{A8F01471-E5A7-48F0-AE65-4B0E8E3D1683}.Debug|x86.Build.0 = Debug|x86
 		{A8F01471-E5A7-48F0-AE65-4B0E8E3D1683}.Release|x86.ActiveCfg = Release|x86
 		{A8F01471-E5A7-48F0-AE65-4B0E8E3D1683}.Release|x86.Build.0 = Release|x86
+		{A50D9F60-156A-4538-B881-4CB246B046E6}.Debug|x86.ActiveCfg = Debug|x86
+		{A50D9F60-156A-4538-B881-4CB246B046E6}.Debug|x86.Build.0 = Debug|x86
+		{A50D9F60-156A-4538-B881-4CB246B046E6}.Release|x86.ActiveCfg = Release|x86
+		{A50D9F60-156A-4538-B881-4CB246B046E6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
