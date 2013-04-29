@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1C.Ancient.Berland.Circus.Codeforces\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1C.Ancient.Berland.Circus.Codeforces\bin\Release\P1C.Ancient.Berland.Circus.Codeforces.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1C.Ancient.Berland.Circus.Codeforces\bin\Release\P1C.Ancient.Berland.Circus.Codeforces.pdb
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1C.Ancient.Berland.Circus.Codeforces\obj\x86\Release\P1C.Ancient.Berland.Circus.Codeforces.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1C.Ancient.Berland.Circus.Codeforces\obj\x86\Release\P1C.Ancient.Berland.Circus.Codeforces.pdb

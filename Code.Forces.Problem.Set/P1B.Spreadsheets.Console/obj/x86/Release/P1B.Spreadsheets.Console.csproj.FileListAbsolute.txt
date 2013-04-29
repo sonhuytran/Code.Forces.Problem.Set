@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets.Console\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets.Console\bin\Release\P1B.Spreadsheets.Console.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets.Console\bin\Release\P1B.Spreadsheets.Console.pdb
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets.Console\obj\x86\Release\P1B.Spreadsheets.Console.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets.Console\obj\x86\Release\P1B.Spreadsheets.Console.pdb

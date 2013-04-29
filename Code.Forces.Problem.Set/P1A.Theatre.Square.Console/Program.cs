@@ -4,18 +4,18 @@ namespace P1A.Theatre.Square.Console
 {
 	public class TheatreSquare
 	{
-		private int n;
-		private int m;
-		private int a;
+		private long n;
+		private long m;
+		private long a;
 
-		private static readonly int nMin = 1;
-		private static readonly int nMax = 109;
-		private static readonly int mMin = 1;
-		private static readonly int mMax = 109;
-		private static readonly int aMin = 1;
-		private static readonly int aMax = 109;
+		private static readonly long nMin = 1;
+		private static readonly long nMax = 1000000000;
+		private static readonly long mMin = 1;
+		private static readonly long mMax = 1000000000;
+		private static readonly long aMin = 1;
+		private static readonly long aMax = 1000000000;
 
-		public TheatreSquare(int n, int m, int a)
+		public TheatreSquare(long n, long m, long a)
 		{
 			if (n < nMin || n > nMax)
 			{
@@ -39,14 +39,14 @@ namespace P1A.Theatre.Square.Console
 
 		public long GetNFlagstone()
 		{
-			int flagstoneN = n / a;
+			long flagstoneN = n / a;
 
 			if (n % a != 0)
 			{
 				flagstoneN++;
 			}
 
-			int flagstoneM = m / a;
+			long flagstoneM = m / a;
 
 			if (m % a != 0)
 			{
@@ -59,16 +59,16 @@ namespace P1A.Theatre.Square.Console
 
 	class Program
 	{
-		private static bool GetInputs(string input, out int n, out int m, out int a)
+		private static bool GetInputs(string input, out long n, out long m, out long a)
 		{
 			try
 			{
 				string[] inputs = input.Split(" ".ToCharArray(),
 					StringSplitOptions.RemoveEmptyEntries);
 
-				n = int.Parse(inputs[0]);
-				m = int.Parse(inputs[1]);
-				a = int.Parse(inputs[2]);
+				n = long.Parse(inputs[0]);
+				m = long.Parse(inputs[1]);
+				a = long.Parse(inputs[2]);
 
 				return true;
 			}
@@ -87,7 +87,7 @@ namespace P1A.Theatre.Square.Console
 		{
 			string inputs = System.Console.ReadLine();
 			
-			int n = 0, m = 0, a = 0;
+			long n = 0, m = 0, a = 0;
 
 			try
 			{

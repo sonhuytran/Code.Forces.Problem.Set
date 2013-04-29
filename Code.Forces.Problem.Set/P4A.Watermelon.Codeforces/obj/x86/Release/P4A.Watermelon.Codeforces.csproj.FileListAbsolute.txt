@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P4A.Watermelon.Codeforces\bin\Release\P4A.Watermelon.Codeforces.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P4A.Watermelon.Codeforces\bin\Release\P4A.Watermelon.Codeforces.pdb
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P4A.Watermelon.Codeforces\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P4A.Watermelon.Codeforces\obj\x86\Release\P4A.Watermelon.Codeforces.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P4A.Watermelon.Codeforces\obj\x86\Release\P4A.Watermelon.Codeforces.pdb

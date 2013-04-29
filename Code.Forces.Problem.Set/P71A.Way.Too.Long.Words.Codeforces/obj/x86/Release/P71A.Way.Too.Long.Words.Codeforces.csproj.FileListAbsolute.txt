@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P71A.Way.Too.Long.Words.Codeforces\bin\Release\P71A.Way.Too.Long.Words.Codeforces.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P71A.Way.Too.Long.Words.Codeforces\bin\Release\P71A.Way.Too.Long.Words.Codeforces.pdb
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P71A.Way.Too.Long.Words.Codeforces\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P71A.Way.Too.Long.Words.Codeforces\obj\x86\Release\P71A.Way.Too.Long.Words.Codeforces.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P71A.Way.Too.Long.Words.Codeforces\obj\x86\Release\P71A.Way.Too.Long.Words.Codeforces.pdb
