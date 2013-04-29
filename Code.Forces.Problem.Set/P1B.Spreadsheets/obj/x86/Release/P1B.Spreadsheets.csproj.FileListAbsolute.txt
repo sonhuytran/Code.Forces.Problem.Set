@@ -1,0 +1,10 @@
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\bin\Release\P1B.Spreadsheets.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\bin\Release\P1B.Spreadsheets.pdb
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\P1B.Spreadsheets.About.resources
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\P1B.Spreadsheets.Form1.resources
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\P1B.Spreadsheets.Properties.Resources.resources
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\P1B.Spreadsheets.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1B.Spreadsheets\obj\x86\Release\P1B.Spreadsheets.pdb

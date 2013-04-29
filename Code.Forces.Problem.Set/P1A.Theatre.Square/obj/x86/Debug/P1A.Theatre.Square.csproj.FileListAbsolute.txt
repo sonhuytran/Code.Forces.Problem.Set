@@ -1,0 +1,10 @@
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\bin\Debug\P1A.Theatre.Square.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\bin\Debug\P1A.Theatre.Square.pdb
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\P1A.Theatre.Square.AboutP1A.resources
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\P1A.Theatre.Square.Form1.resources
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\P1A.Theatre.Square.Properties.Resources.resources
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\P1A.Theatre.Square.exe
+C:\Users\mtpham\Documents\GitHub\Code.Forces.Problem.Set\Code.Forces.Problem.Set\P1A.Theatre.Square\obj\x86\Debug\P1A.Theatre.Square.pdb
