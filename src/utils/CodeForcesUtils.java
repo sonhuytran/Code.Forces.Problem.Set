@@ -26,9 +26,9 @@ public class CodeForcesUtils {
 			// begin reading inputs
 			InputStreamReader isr = new InputStreamReader(System.in);
 			BufferedReader reader = new BufferedReader(isr);
-			
+
 			// reading inputs
-			
+
 			reader.close();
 			isr.close();
 			// end reading inputs
