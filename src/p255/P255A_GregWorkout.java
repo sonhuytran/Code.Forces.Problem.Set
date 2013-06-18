@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Son-Huy TRAN
  * 
  */
-public class P255A {
+public class P255A_GregWorkout {
 
 	/**
 	 * @param args
