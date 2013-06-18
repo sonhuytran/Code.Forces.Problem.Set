@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Son-Huy TRAN
  * 
  */
-public class P265_A {
+public class P265A_ColorfulStones {
 
 	/**
 	 * @param args
