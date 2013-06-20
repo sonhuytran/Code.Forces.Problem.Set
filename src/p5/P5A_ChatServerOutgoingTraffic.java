@@ -1,7 +1,7 @@
 /**
  * 
  */
-package p4;
+package p5;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
  * @author Son-Huy TRAN
  * 
  */
-public class P4A_ChatServerOutgoingTraffic {
+public class P5A_ChatServerOutgoingTraffic {
 
 	/**
 	 * @param args
