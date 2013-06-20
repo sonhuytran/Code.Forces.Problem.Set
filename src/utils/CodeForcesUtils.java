@@ -21,7 +21,7 @@ public class CodeForcesUtils {
 
 		return a;
 	}
-	
+
 	public static void readStandardInput2() {
 		Scanner scanner = new Scanner(System.in);
 		scanner.close();
@@ -41,5 +41,11 @@ public class CodeForcesUtils {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	public static void swap(int[] numbers, int i, int j) {
+		int temp = numbers[i];
+		numbers[i] = numbers[j];
+		numbers[j] = temp;
 	}
 }
