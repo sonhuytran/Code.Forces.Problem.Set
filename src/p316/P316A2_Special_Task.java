@@ -3,7 +3,6 @@
  */
 package p316;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -41,34 +40,42 @@ public class P316A2_Special_Task {
 			}
 		}
 
-		BigInteger forIP = BigInteger.valueOf(1);
-
-		if (countIP > 0) {
-			if (hint.charAt(0) == '?') {
-				forIP = BigInteger.valueOf(10).pow(countIP - 1)
-						.multiply(BigInteger.valueOf(9));
-			} else {
-				forIP = BigInteger.valueOf(10).pow(countIP);
-			}
-		}
-
-		BigInteger forChar = BigInteger.valueOf(1);
+		long forChar = 1;
 
 		for (int i = 11 - countCharacters; i <= 10; i++) {
-			forChar = forChar.multiply(BigInteger.valueOf(i));
+			forChar *= i;
 		}
 
 		if (hint.charAt(0) >= 'A' && hint.charAt(0) <= 'J') {
-			BigInteger subForChar = BigInteger.valueOf(1);
+			long subForChar = 1;
 
 			for (int i = 11 - countCharacters; i <= 9; i++) {
-				subForChar = subForChar.multiply(BigInteger.valueOf(i));
+				subForChar *= i;
 			}
 
-			forChar = forChar.subtract(subForChar);
+			forChar -= subForChar;
 		}
 
-		BigInteger result = forIP.multiply(forChar);
+		StringBuilder result = new StringBuilder();
+
+		if (countIP > 0) {
+			if (hint.charAt(0) == '?') {
+				result.append(String.valueOf(forChar * 9));
+
+				for (int i = 1; i < countIP; i++) {
+					result.append('0');
+				}
+			} else {
+				result.append(String.valueOf(forChar));
+				
+				for (int i = 0; i < countIP; i++) {
+					result.append('0');
+				}
+			}
+		} else {
+			result.append(String.valueOf(forChar));
+		}
+
 		System.out.println(result);
 	}
 }
