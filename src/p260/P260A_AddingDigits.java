@@ -1,6 +1,5 @@
 package p260;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class P260A_AddingDigits {
@@ -15,34 +14,30 @@ public class P260A_AddingDigits {
 		int n = scanner.nextInt();
 		scanner.close();
 
-		BigInteger result = BigInteger.valueOf(a);
-		BigInteger dividant = BigInteger.valueOf(b);
-		BigInteger[] digits = new BigInteger[11];
+		int temp = a * 10;
+		boolean hasResult = false;
 
-		for (int i = 0; i < 11; i++) {
-			digits[i] = BigInteger.valueOf(i);
-		}
-
-		for (int i = 0; i < n; i++) {
-			boolean hasresult = false;
-			result = result.multiply(digits[10]);
-
-			for (int j = 0; j < 10; j++) {
-				BigInteger temp = result.add(digits[j]);
-
-				if (temp.mod(dividant).equals(BigInteger.ZERO)) {
-					hasresult = true;
-					result = temp;
-					break;
-				}
-			}
-			
-			if (!hasresult) {
-				System.out.println(-1);
-				return;
+		for (int i = 0; i < 10; i++) {
+			if ((temp + i) % b == 0) {
+				hasResult = true;
+				a = temp + i;
+				break;
 			}
 		}
-		
+
+		if (!hasResult) {
+			System.out.println(-1);
+			return;
+		}
+
+		StringBuilder result = new StringBuilder();
+		result.append(a);
+
+		// if (a % b == 0) then ((a * 10) % b == 0)
+		for (int i = 1; i < n; i++) {
+			result.append("0");
+		}
+
 		System.out.println(result);
 	}
 }
