@@ -28,10 +28,7 @@ public class P289A_PoloThePenguinAndSegments {
 		if (size % k == 0) {
 			System.out.println(0);
 		} else {
-			long temp = (size / k + 1) * k;
-			long result = temp - size;
-			
-			System.out.println(result);
+			System.out.println(k - size % k);
 		}
 	}
 }
