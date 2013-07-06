@@ -8,7 +8,13 @@ public class P236B_EasyNumberChallenge {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int max = 100 * 100 * 100;
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		int c = scanner.nextInt();
+		scanner.close();
+
+		int max = a * b * c;
 		int[] p = new int[max + 1];
 
 		for (int i = 1; i <= max; i++) {
@@ -16,12 +22,6 @@ public class P236B_EasyNumberChallenge {
 				p[j]++;
 			}
 		}
-		
-		Scanner scanner = new Scanner(System.in);
-		int a = scanner.nextInt();
-		int b = scanner.nextInt();
-		int c = scanner.nextInt();
-		scanner.close();
 
 		long sum = 0;
 
