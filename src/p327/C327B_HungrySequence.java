@@ -1,4 +1,4 @@
-package c327;
+package p327;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
