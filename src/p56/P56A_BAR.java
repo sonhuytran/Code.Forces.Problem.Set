@@ -1,5 +1,7 @@
 package p56;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class P56A_BAR {
@@ -8,7 +10,10 @@ public class P56A_BAR {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String alcools = "ABSINTH,BEER,BRANDY,CHAMPAGNE,GIN,RUM,SAKE,TEQUILA,VODKA,WHISKEY,WINE";
+		List<String> alcools = Arrays
+				.asList("ABSINTH,BEER,BRANDY,CHAMPAGNE,GIN,RUM,SAKE,TEQUILA,VODKA,WHISKEY,WINE"
+						.split(","));
+
 		int limit = 18;
 
 		Scanner scanner = new Scanner(System.in);
@@ -24,7 +29,7 @@ public class P56A_BAR {
 					count++;
 				}
 			} else {
-				if (alcools.indexOf(input) > -1) {
+				if (alcools.contains(input)) {
 					count++;
 				}
 			}
