@@ -1,7 +1,7 @@
 /**
  * 
  */
-package p305A;
+package p305;
 
 import java.util.Arrays;
 import java.util.Scanner;
