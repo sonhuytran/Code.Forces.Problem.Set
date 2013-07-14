@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Son-Huy TRAN
  * 
  */
-public class P80A {
+public class P80A_PanoramixPrediction {
 
 	private static boolean isPrime(int number) {
 		if (number <= 1) {
