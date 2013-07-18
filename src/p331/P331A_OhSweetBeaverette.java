@@ -23,28 +23,29 @@ public class P331A_OhSweetBeaverette {
 		int n = reader.nextInt();
 		Integer[] appeals = reader.nextIntArray(n);
 		List<Integer> appealList = Arrays.asList(appeals);
-		int index = -1, firstIndex = -1, negativeCount = 0, negativeTemp = 0;
+		int index = -1, firstIndex = -1, negativeCount = 0, negativeTemp = 0, value = 0;
 		int maxStart = -1, maxEnd = -1;
 		long max = Long.MIN_VALUE;
 		long sum = 0;
 
 		for (int i = 0; i < appealList.size() - 1; i++) {
-			firstIndex = appealList.indexOf(appealList.get(i));
+			value = appealList.get(i);
+			firstIndex = appealList.indexOf(value);
 
 			if (firstIndex != i) {
 				continue;
 			}
 
-			index = appealList.lastIndexOf(appealList.get(i));
+			index = appealList.lastIndexOf(value);
 
 			if (index != i) {
-				sum = 0;
+				sum = 2 * value;
 				negativeTemp = 0;
 
-				for (int j = i; j <= index; j++) {
-					int value = appealList.get(j);
+				for (int j = i + 1; j < index; j++) {
+					value = appealList.get(j);
 
-					if (value > 0) {
+					if (value >= 0) {
 						sum += value;
 					} else {
 						negativeTemp++;
@@ -71,7 +72,7 @@ public class P331A_OhSweetBeaverette {
 		}
 
 		if (negativeCount > 0) {
-			for (int i = maxStart; i <= maxEnd; i++) {
+			for (int i = maxStart + 1; i < maxEnd; i++) {
 				if (appealList.get(i) < 0) {
 					result.append(i + 1);
 					result.append(' ');
