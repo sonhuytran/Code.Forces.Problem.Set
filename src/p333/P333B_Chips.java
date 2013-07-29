@@ -23,7 +23,7 @@ public class P333B_Chips {
 		bannedRows[0] = bannedRows[n - 1] = false;
 		bannedCols[0] = bannedCols[n - 1] = false;
 
-		int rows = n - 2, cols = rows, x = 0, y = 0, min = 0, max = n - 1;
+		int x = 0, y = 0;
 
 		for (int i = 0; i < m; i++) {
 			x = banned[i][0];
