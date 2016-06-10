@@ -26,6 +26,8 @@ public class P136B_TernaryLogic {
 			result += temp * ternary[(int) index];
 			temp *= 3;
 		}
+
+		return result;
 	}
 
 	/**
